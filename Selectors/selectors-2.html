@@ -5,7 +5,7 @@
     <style>
       * {
        font-family: Arial, "Roboto";
-    }
+      }
       body {
        background-color: #f1f1f1;
       }
@@ -20,51 +20,48 @@
         color: #383838;
       }
       table, td, th {
-       width: 700px; 
+       width: 700px;
        border: 1px solid #333;
-       margin: auto; /* Выравниваем таблицу по центру окна  */
-   }
+       margin: auto;
+       }
       td, th {
        padding: 8px 10px;
        border-top-width: 0;
        border-left-width: 0;
-   }
+       }
       th:last-child,
       td:last-child {
        border-right-width: 0;
-   }
+      }
 
       tr:last-child td {
        border-bottom-width: 0;
-   }
+      }
       th {
        background: #d1d1d1;
        vertical-align: bottom;
-   }
-   legend {
-    font-size: larger;
-   }
-   fieldset {
-    padding: 20px 40px;
-    margin-bottom: 40px;
-   }
-   label {
-    margin-right: 10px;
-
-   }
-   #dialog::backdrop {
-  background: rgba(4, 102, 4, 0.425);
-}
-     label input[type="checkbox"]:checked{
-    border: none;
-    outline: 2px solid deeppink;
-    font-weight: bolder;
-}
-fieldset:hover {
-  background-color: #ffffff;
-  box-shadow: ;
-
-}
+      }
+      legend {
+       font-size: larger;
+      }
+      fieldset {
+       padding: 20px 40px;
+       margin-bottom: 40px;
+      }
+      label {
+       margin-right: 10px;
+      }
+      #dialog::backdrop {
+       background: rgba(4, 102, 4, 0.425);
+      }
+      input[type="checkbox"]:checked + label{
+       font-weight: bolder;
+      }
+      fieldset:hover {
+       background-color: #ffffff;
+       box-shadow: 5px 5px 8px rgb(128, 128, 128);
+      }
+      input[type="checkbox"]:checked label
 
 
     </style>
@@ -165,7 +162,7 @@ fieldset:hover {
     <form>
         <fieldset>
             <legend>Select all genres that you enjoy:</legend>
-            <label><input type="checkbox" name="genre" value="sci-fi">Science Fiction</label>
+            <input id="first_genres" type="checkbox" name="genre" value="sci-fi"><label for="first_genres">Science Fiction</label>
             <label><input type="checkbox" name="genre" value="fantasy">Fantasy</label>
             <label><input type="checkbox" name="genre" value="mystery">Mystery</label>
             <label><input type="checkbox" name="genre" value="romance">Romance</label>
