@@ -42,7 +42,7 @@
     }
 
     tr:nth-child(even) {
-     background: #fdfdfd;
+      background: #fdfdfd;
     }
 
     tr:hover {
@@ -89,6 +89,26 @@
       font-weight: bolder;
     }
 
+    #email {
+      padding: 10px 10px;
+    }
+
+    #email:invalid {
+      outline: 2px solid red;
+    }
+
+    .error {
+      display: none;
+    }
+
+    #email:invalid+.error {
+      display: inline;
+    }
+
+    .req {
+      color: #ff0000;
+    }
+
     button {
       background: rgba(28, 110, 26, 0.733);
       margin: 0 auto;
@@ -105,7 +125,6 @@
     #dialog::backdrop {
       background: rgba(4, 102, 4, 0.425);
     }
-
   </style>
 </head>
 
@@ -244,6 +263,10 @@
           <textarea name="thoughts" rows="5" cols="40"></textarea>
         </label>
       </fieldset>
+      <label for="email">Email</label>
+      <span class="req">*</span>
+      <input id="email" placeholder="name@email.com" type="email">
+      <span class="error"> invalid email</span> 
 
       <button type="submit">Submit</button>
     </form>
