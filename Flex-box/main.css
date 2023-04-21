@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px grey solid;
+  padding: 16px;
+  border-radius: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo-img {
+  width: 56px;
+}
+
+.product_photo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 64px;
+  margin-bottom: 8px;
+}
+
+.product-img {
+  width: 264px;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.promo-img {
+  width: 70px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.text_caption {
+  font-size: 16px;
+  color: grey;
+}
+
+.text {
+  color: black;
+}
+
+.text_selected {
+  font-size: 28px;
+  font-weight: 600;
+}
+.auxiliary_icon {
+  width: 48px;
+  margin-right: 8px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+.old_price,
+.new_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+}
+
+.avans {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ margin-top: 0;
+ margin-bottom: 8px;
+}
+
+.text_colored {
+  color: rgb(6, 99, 240);
+}
+
+.text_selected_colored {
+  color: rgb(6, 99, 240);
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.credit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.cta_buy{
+  background: #ff7c02;
+  width: 150px;
+  height: 40px;
+  border: #ff7c02;
+  border-radius: 8px;
+}
+
+.action>.arrows {
+  height: 30px;
+  width: 30px;
+  background-image: url("./img/one-click-bl_gr.png");
+}
