@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-.aditional_info{
+.aditional_info {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -48,8 +48,8 @@ a {
   padding: 0;
 }
 
-.product_items>li, 
-.administration>li, 
+.product_items>li,
+.administration>li,
 .breadcrumbs>li {
   list-style-type: none;
   font-weight: 400;
@@ -65,11 +65,20 @@ a {
   width: 172px;
 }
 
+.breadcrumbs {
+  width: 264px;
+}
+
+.breadcrumbs>li:not(:nth-child(3))  {
+  color: #686363;
+}
+
+.breadcrumbs>li:not(:last-child)::after {
+  content: "/";
+  position: relative;
+  left: 4px;
+}
 
 .caption {
   color: #1E1E1E;
-}
-
-img {
-
 }
