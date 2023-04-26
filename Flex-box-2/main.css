@@ -5,9 +5,16 @@
   color: #1E1E1E;
   background: #F5F5F3;
   width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .aditional_info{
-  ;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 14px;
+ margin: auto;
+ margin-top: 5px;
 }
 .caption {
   color: #1E1E1E;
