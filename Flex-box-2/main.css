@@ -11,11 +11,11 @@
 }
 
 .aditional_info{
- font-weight: 400;
- font-size: 12px;
- line-height: 14px;
- margin: auto;
- margin-top: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin: auto;
+  margin-top: 5px;
 }
 
 .main_navigation {
@@ -25,10 +25,46 @@
   margin: 24px 32px;
 }
 
-.logo {
-
-
+a {
+  text-decoration: none;
+  color: #1E1E1E;
 }
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.product_items,
+.administration,
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.product_items>li, 
+.administration>li, 
+.breadcrumbs>li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.product_items {
+  width: 404px;
+}
+
+.administration {
+  width: 172px;
+}
+
 
 .caption {
   color: #1E1E1E;
