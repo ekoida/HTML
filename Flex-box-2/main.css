@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .aditional_info{
  font-weight: 400;
  font-size: 12px;
@@ -16,6 +17,19 @@
  margin: auto;
  margin-top: 5px;
 }
+
+.main_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 24px 32px;
+}
+
+.logo {
+
+
+}
+
 .caption {
   color: #1E1E1E;
 }
