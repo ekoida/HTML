@@ -3,7 +3,7 @@ body {
   justify-content: center;
 }
 
-.primary_text_color{
+.primary_text_color {
   color: #1E1E1E;
 }
 
@@ -149,4 +149,15 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 
+}
+
+.header_selection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.link_text_decoration {
+  text-decoration: underline;
 }
