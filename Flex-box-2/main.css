@@ -98,7 +98,6 @@ a {
   margin: 24px;
   display: flex;
   gap: 32px;
-
 }
 
 h1 {
@@ -243,7 +242,6 @@ h1 {
 
 .radiobutton_circle:nth-of-type(3) {
   background: linear-gradient(213.88deg, #BBA14F -13.81%, #B59452 19.06%, #BBA14F 36.1%, #E9E3D2 61.66%, #BBA14F 84.78%, #BBA14F 103.04%);
-
 }
 
 .gold_color_option {
@@ -279,7 +277,6 @@ button {
   font-size: 15px;
   line-height: 17px;
   text-align: center;
-
 }
 
 .CTA {
