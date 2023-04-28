@@ -78,16 +78,17 @@ a {
   width: 172px;
 }
 
-.breadcrumbs {
+.list_of_card_breadcrumbs {
   width: 264px;
   margin-left: 32px;
 }
 
-.breadcrumbs>li:not(:nth-child(3)) {
+
+.list_of_card_breadcrumbs>li:not(:nth-child(3)) {
   color: #686363;
 }
 
-.breadcrumbs>li:not(:last-child)::after {
+.list_of_card_breadcrumbs>li:not(:last-child)::after {
   content: "/";
   position: relative;
   left: 4px;
@@ -116,6 +117,7 @@ h1 {
 }
 
 .text_container {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-right: 160px;
@@ -153,6 +155,10 @@ h1 {
   justify-content: space-between;
   font-size: 12px;
   line-height: 14px;
+}
+
+.additional_info {
+  margin-right: 4px;
 }
 
 .link_text_decoration {
@@ -240,11 +246,89 @@ h1 {
 
 }
 
+.gold_color_option {
+  position: relative;
+}
+
 .circle {
+  position: absolute;
   width: 32px;
   height: 32px;
-  left: 84px;
-  top: 0px;
+  left: -4px;
+  top: -4px;
   border-radius: 50%;
   border: 1px solid #1E1E1E;
+}
+
+.button_container {
+  margin-top: 42px;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 461px;
+  height: 44px;
+}
+
+button {
+  border-radius: 200px;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+}
+
+.CTA {
+  width: 193px;
+  height: 44px;
+  background: #272727;
+  color: white;
+}
+
+.optional_action {
+  width: 225px;
+  height: 44px;
+  background: #FFFFFF;
+  color: #1E1E1E;
+}
+
+.breadcrumbs_product_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+}
+
+.list_of_product_breadcrumbs {
+  gap: 12px;
+  position: relative;
+}
+
+.list_of_product_breadcrumbs>li:first-child {
+  color: #1E1E1E;
+}
+
+.general_position {
+  position: absolute;
+  width: 462px;
+  height: 0;
+  border: 1px solid #cfcfcf;
+  bottom: 280px;
+}
+
+.activ_position {
+  position: relative;
+  width: 62px;
+  height: 0px;
+  border: 1px solid #1E1E1E;
+}
+
+.description_full {
+  font-size: 14px;
+  line-height: 150%;
 }
