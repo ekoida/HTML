@@ -228,16 +228,14 @@ h1 {
 }
 
 .radiobutton_circle:first-child {
-
   background: linear-gradient(213.88deg, #AE7B4B -13.81%, #AE7B4B 19.06%, rgba(182, 137, 94, 0.8) 40.97%, #E9DDD2 65.92%, #AE7B4B 103.04%);
 }
 
-.radiobutton_circle:nth-child(2) {
-
+.radiobutton_circle:nth-of-type(2) {
   background: linear-gradient(213.88deg, #CFCFCF -13.81%, #CFCFCF 19.06%, rgba(207, 207, 207, 0.8) 40.97%, #949494 65.92%, #CFCFCF 103.04%);
 }
 
-.radiobutton_circle:last-child {
+.radiobutton_circle:nth-of-type(3) {
   background: linear-gradient(213.88deg, #BBA14F -13.81%, #B59452 19.06%, #BBA14F 36.1%, #E9E3D2 61.66%, #BBA14F 84.78%, #BBA14F 103.04%);
 
 }
