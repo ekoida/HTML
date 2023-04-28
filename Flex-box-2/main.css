@@ -202,3 +202,51 @@ h1 {
   width: 67px;
   height: 41px;
 }
+
+.color_selection_comtainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 432px;
+  height: 62px;
+}
+
+.color_selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+
+.radiobutton_circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.radiobutton_circle:first-child {
+
+  background: linear-gradient(213.88deg, #AE7B4B -13.81%, #AE7B4B 19.06%, rgba(182, 137, 94, 0.8) 40.97%, #E9DDD2 65.92%, #AE7B4B 103.04%);
+}
+
+.radiobutton_circle:nth-child(2) {
+
+  background: linear-gradient(213.88deg, #CFCFCF -13.81%, #CFCFCF 19.06%, rgba(207, 207, 207, 0.8) 40.97%, #949494 65.92%, #CFCFCF 103.04%);
+}
+
+.radiobutton_circle:last-child {
+  background: linear-gradient(213.88deg, #BBA14F -13.81%, #B59452 19.06%, #BBA14F 36.1%, #E9E3D2 61.66%, #BBA14F 84.78%, #BBA14F 103.04%);
+
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  left: 84px;
+  top: 0px;
+  border-radius: 50%;
+  border: 1px solid #1E1E1E;
+}
