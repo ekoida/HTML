@@ -154,3 +154,10 @@ h1 {
   background: #1E293B;
   color: #FFFFFF;
 }
+
+.short_information p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
