@@ -6,6 +6,15 @@
   align-items: flex-start;
   justify-content: center;
   gap: 32px;
+  font-family: 'Titillium Web';
+}
+
+.primary_purple_200 {
+  color: #7C3AED;
+}
+
+.grey_palete_800 {
+  color: #1E293B;
 }
 
 .offer_card {
@@ -61,4 +70,22 @@
   align-items: center;
   padding: 0px;
   gap: 11px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+
+}
+
+.caption {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
