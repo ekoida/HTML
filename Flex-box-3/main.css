@@ -1,3 +1,20 @@
+:root {
+  --greyPaleteGray_100: #F1F5F9;
+  --greyPaleteGray_200: #E2E8F0;
+  --greyPaleteGray_300: #CBD5E1;
+  --greyPaleteGray_400: #94A3B8;
+  --greyPaleteGray_500: #64748B;
+  --greyPaleteGray_600: #475569;
+  --greyPaleteGray_700: #334155;
+  --greyPaleteGray_800: #1E293B;
+  --greyPaleteGray_900: #0F172A;
+  --greyPaleteWhite: #FFFFFF;
+  --secondaryGreen_100: #04D361;
+  --secondaryGreen_200: #1B873F;
+  --secondaryOrange: #FBA94C;
+  --primaryPurple_100: #996DFF;
+  --primaryPurple_200: #7C3AED;
+}
 
 .container {
   background: #F8FAFC;
@@ -11,7 +28,7 @@
 }
 
 .primary_purple_200 {
-  color: #7C3AED;
+  color: var(--primaryPurple_200);
 }
 
 .grey_palete_800 {
@@ -30,12 +47,18 @@
   border-radius: 10px;
 }
 
+.offer_card:hover {
+  border: 1px solid #7C3AED;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
+  max-width: 384px;
+  max-height: 454px;
 }
 
 .header {
@@ -44,6 +67,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
+  width: 100%;
 }
 
 .line {
@@ -66,6 +90,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
+  width: 100%;
 }
 
 .item_peculiarities {
@@ -98,7 +123,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 55px;
   color: #1E293B;
 }
 
@@ -114,4 +139,18 @@ h1 {
   border: 1px solid #1E293B;
   border-radius: 4px;
   align-self: stretch;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.outlined_CTA {
+  border: 1px solid #1E293B;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.outlined_CTA:hover {
+  background: #1E293B;
+  color: #FFFFFF;
 }
