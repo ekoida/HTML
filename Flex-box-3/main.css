@@ -1,5 +1,5 @@
+
 .container {
-  width: 100vw;
   background: #F8FAFC;
   display: flex;
   flex-direction: row;
@@ -7,6 +7,7 @@
   justify-content: center;
   gap: 32px;
   font-family: 'Titillium Web';
+  padding: 200px;
 }
 
 .primary_purple_200 {
@@ -23,7 +24,6 @@
   align-items: flex-start;
   padding: 48px 32px 32px;
   gap: 10px;
-  width: 384px;
   height: 454px;
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -48,6 +48,11 @@
 
 .line {
   align-self: stretch;
+}
+
+.h1_price {
+  display: flex;
+  justify-content: space-between;
 }
 
 .divider {
@@ -81,11 +86,32 @@ h1 {
 }
 
 .caption {
-
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1E293B;
+}
+
+.CTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 320px;
+  height: 56px;
+  border: 1px solid #1E293B;
+  border-radius: 4px;
+  align-self: stretch;
 }
