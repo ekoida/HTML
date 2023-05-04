@@ -25,6 +25,7 @@
   gap: 32px;
   font-family: 'Titillium Web';
   padding: 200px;
+  flex-wrap: wrap;
 }
 
 .primary_purple_200 {
@@ -32,7 +33,7 @@
 }
 
 .grey_palete_800 {
-  color: #1E293B;
+  color: var(--greyPaleteGray_800);
 }
 
 .white_palete {
@@ -47,15 +48,15 @@
   padding: 48px 32px 32px;
   gap: 10px;
   height: 454px;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
+  background: var(--greyPaleteWhite);
+  border: 1px solid var(--greyPaleteGray_200);
   border-radius: 10px;
   max-width: 384px;
   max-height: 454px;
 }
 
 .offer_card:hover {
-  border: 1px solid #7C3AED;
+  border: 1px solid var(--primaryPurple_200);
 }
 
 .offer_card:nth-child(2) {
@@ -108,7 +109,7 @@ padding: 8px;
 }
 
 .divider {
-  border: 1px solid #E2E8F0;
+  border: 1px solid var(--greyPaleteGray_200);
   height: 0px;
 }
 
@@ -172,19 +173,19 @@ h1 {
 }
 
 .outlined_CTA {
-  border: 1px solid #1E293B;
+  border: 1px solid var(--greyPaleteGray_800);
   border-radius: 4px;
-  background: #FFFFFF;
+  background: var(--greyPaleteWhite);
 }
 
 .outlined_CTA:hover {
   background: #1E293B;
-  color: #FFFFFF;
+  color: var(--greyPaleteWhite);
 }
 
 .filled_CTA {
   background: var(--primaryPurple_100);
-  color: #FFFFFF;
+  color: var(--greyPaleteWhite);
 }
 
 .filled_CTA:hover {
