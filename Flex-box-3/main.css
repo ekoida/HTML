@@ -35,7 +35,12 @@
   color: #1E293B;
 }
 
+.white_palete {
+ color: #F8FAFC;
+}
+
 .offer_card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -52,6 +57,28 @@
 .offer_card:hover {
   border: 1px solid #7C3AED;
 }
+
+.offer_card:nth-child(2) {
+  background: var(--greyPaleteGray_900);
+  color: #F8FAFC;
+}
+
+.offer_card:nth-child(2)::after {
+position: absolute;
+content: "Mais vantajoso";
+background-color: var(--secondaryOrange);
+left: calc(50% - 133px/2 - 0.5px);
+top: -18px;
+border-radius: 6px;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--greyPaleteGray_900);
+padding: 8px;
+}
+
 
 .content {
   display: flex;
@@ -126,7 +153,6 @@ h1 {
   font-weight: 400;
   font-size: 18px;
   line-height: 55px;
-  color: #1E293B;
 }
 
 .CTA {
