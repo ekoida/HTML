@@ -204,3 +204,57 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.06em;
 }
+
+@media  (max-width: 1640px) {
+  .container {
+    padding: 32px;
+    flex-wrap: nowrap;
+  }
+}
+
+@media  (max-width: 1240px) {
+  .container {
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+  .offer_card {
+    padding: 32px 16px 16px;
+  }
+}
+
+@media  (max-width: 1220px) {
+  .container {
+    padding: 16px;
+  }
+  .offer_card {
+    padding-bottom: 0px;
+    gap: 10px;
+  }
+  .content {
+    gap: 20px;
+}
+.header {
+  gap: 0px;
+}
+}
+
+@media (max-width: 790px) {
+  h1 {
+    font-size: 24px;
+  }
+  .CTA {
+    width: 282px;
+  }
+  .peculiarities {
+    width: 282px;
+}
+
+}
+ 
+@media (max-width: 710px) {
+
+  .offer_card {
+    height: auto;
+    padding-bottom: 32px;
+  }
+}
