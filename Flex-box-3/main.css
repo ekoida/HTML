@@ -242,6 +242,9 @@ h1 {
   h1 {
     font-size: 24px;
   }
+  .offer_card {
+    height: 424px;
+  }
   .CTA {
     width: 282px;
   }
