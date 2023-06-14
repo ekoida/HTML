@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<div class="container">
+    <main>
+        <form action="">
+            <table>
+                <thead>
+                <tr>
+                    <th colspan="2">Расскажите немного о себе</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><label for="first_name">Имя</label></td>
+                    <td><input name="first_name" id="first_name" type="text" placeholder="Иван"></td>
+                </tr>
+                <tr>
+                    <td><label for="surname">Фамилия</label></td>
+                    <td><input id="surname" name="surname" type="text" placeholder="Иванов"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Возраст</label></td>
+                    <td><input id="age" name="age" type="number" placeholder="45"></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">День рождения</label></td>
+                    <td><input id="birthday" name="birthday" type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Ваш пол</label></td>
+                    <td>
+                        <input id="gender" name="gender" value="M" type="radio">М
+                        <label><input name="gender" value="Ж" type="radio">Ж</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="winter">Ваши любимые времена года</label></td>
+                    <td>
+                        <input id="winter" name="winter" type="checkbox">Зима
+                        <label><input id="spring" name="spring" type="checkbox"></label>Весна
+                        <label><input id="summer" name="summer" type="checkbox"></label>Лето
+                        <label><input id="autumn" name="autumn" type="checkbox"></label>Осень
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="color">Ваш любимый цвет</label></td>
+                    <td><input name="color" id="color" type="color"></td>
+                </tr>
+                <tr>
+                    <td><label for="productive_daytime_start">Самый продуктивный период в сутках</label></td>
+                    <td>С<input id="productive_daytime_start" name="productive_daytime_start" type="range">До<label><input
+                            name="productive_daytime_end" type="range"></label></td>
+                </tr>
+                <tr>
+                    <td><label for="musical_band">Любимые группы</label></td>
+                    <td><select name="musical_band" id="musical_band" multiple size="3">
+                        <option disabled>--Выберите несколько--</option>
+                        <option>Имя группы 1</option>
+                        <option>Имя группы 2</option>
+                        <option>Имя группы 3</option>
+                        <option>Имя группы 4</option>
+                        <option>Имя группы 5</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Ваш электронный адрес</label></td>
+                    <td><input id="email" name="email" type="email" placeholder="ivanov@email.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">Ваш телефонный номер</label></td>
+                    <td><input id="telephone" name="telephone" type="tel" placeholder="(+373)-69-054824"></td>
+                </tr>
+                <tr>
+                    <td><label for="url">Ваш url на гитхаб</label></td>
+                    <td><input name="url" id="url" type="url" placeholder="https://gitub.com/example"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Сохранить</button>
+                        <button type="reset">Сбросить</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+    <aside>
+        <h2>Ваши ответы</h2>
+        <article></article>
+    </aside>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
