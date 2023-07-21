@@ -12,9 +12,11 @@
  */
 
 // писать функцию тут
-function calcSquare(/**/){
+function calcSquare(width, height){
+   const calcSquare = width * height;
+
     // тут вычисления
- retrun /**/
+ retrun `Square is: ${calcSquare}`
 }
 //
 
@@ -44,7 +46,18 @@ console.log(resultForCalcSquare)
  */
 
 // писать функцию тут
+ function speed (distance, time){
+   const minAllowedKilomitersPerHour = 45;
+   const maxAllowedKilometersPerHour = 140;
 
+   const currentSpeed = distance/ time;
+   if (currentSpeed >= maxAllowedKilometersPerHour){
+      return `Вы двигаетесь слишком быстро, ваша скорость: ${currentSpeed}`
+   } else if (currentSpeed<=minAllowedKilomitersPerHour){
+      return `Вы двигаетесь слишком медленно, ваша скорость: ${currentSpeed}`
+   }else (currentSpeed >= minAllowedKilomitersPerHour && <= maxAllowedKilometersPerHour)
+    return `Вы двигаетесь нормально, ваша скорость: ${currentSpeed}`
+ }
 //
 /**
  * тут вызов функции, входные параметры можно менять как угодно
@@ -73,9 +86,19 @@ console.log(calculatedSpeed)
  */
 
 // -> тут написать calculateDiscountAmmount функцию
+function calculateDiscountAmmount (totalPrice, discount) {
+   const calculateDiscount = totalPrice * discount;
+   return calculateDiscount;
+}
 
 
 // -> тут написать caluclateDiscountedPrise функцию
+function caluclateDiscountedPrise (totalPrice, calculateDiscount) {
+ const discoutnedPrice = totalPrice - calculateDiscount;
+ return discoutnedPrice;
+}
+
+
 
 function calculateDiscount (totalPrice, discount) {
    const discountAmmount = calculateDiscountAmmount(totalPrice, discount)
